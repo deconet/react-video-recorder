@@ -428,7 +428,8 @@ export default class VideoRecorder extends Component {
 
       this.recordedBlobs = []
       const options = {
-        mimeType: this.getMimeType()
+        mimeType: this.getMimeType(),
+        videoBitsPerSecond: 8000000
       }
 
       try {
