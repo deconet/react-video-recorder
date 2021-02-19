@@ -4,8 +4,9 @@ import styled from 'styled-components'
 
 const Text = styled.div`
   position: absolute;
-  top: 25px;
-  right: 25px;
+  bottom: 25px;
+  right: 0;
+  left: 0;
   font-family: Menlo, monospace;
   font-size: 28px;
   text-shadow: 1px 2px rgba(0, 0, 0, 0.5);
